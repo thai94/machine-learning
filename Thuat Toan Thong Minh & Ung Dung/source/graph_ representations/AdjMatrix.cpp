@@ -1,5 +1,6 @@
 #include "AdjMatrix.h"
 
+// O(n)
 bool AdjMatrix::addVertext() {
     int size = this->v + 1;
     for(int i = 0; i < size; i++) {
@@ -10,6 +11,7 @@ bool AdjMatrix::addVertext() {
     return true;
 }
 
+// O(n)
 bool AdjMatrix::removeVertext(int vertextNum) {
 
     for(int i = 0; i < this->v; i++) {
@@ -19,12 +21,14 @@ bool AdjMatrix::removeVertext(int vertextNum) {
     return true;
 }
 
+// O(1)
 bool AdjMatrix::addEdge(int vertexNum1, int vertexNum2) {
     this->matrix[vertexNum1][vertexNum2] = 1;
     this->matrix[vertexNum2][vertexNum1] = 1;
     return true;
 }
 
+// O(1)
 bool AdjMatrix::removeEdge(int vertexNum1, int vertexNum2) {
     this->matrix[vertexNum1][vertexNum2] = 0;
     this->matrix[vertexNum2][vertexNum1] = 0;
