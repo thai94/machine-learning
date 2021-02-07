@@ -1,0 +1,3 @@
+https://www.howkteam.vn/course/machine-learning-co-ban-voi-numpy/ma-tran-va-vector-voi-numpy-3994
+https://machinelearningcoban.com/2017/10/12/fundaml_vectors/
+https://machinelearningcoban.com/2017/10/20/fundaml_matrices/
